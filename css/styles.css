@@ -12,10 +12,10 @@
       text-align: center;
       /* background-color: black; */
       font-family: 'Manrope Regular' Karla, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      padding: 75px 0px 0px 0px;
+      padding: 72.5px 0px 0px 0px;
       /* background-color: #ccc; */
-      background-color: #04172A;
-
+      /* background-color: #04172A; */
+      background-color: rgb(226, 223, 223);
       position: relative;
   }
   .navbar{
@@ -23,6 +23,7 @@
     margin: 0px;
     background-color: #04172A;
     border: none;
+    position: relative;
   }
  .navbar-brand{
     margin: 0px;
@@ -40,6 +41,8 @@
   .navbar-nav{
     justify-content: stretch;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
   }
   .nav-item{
     width: 10em;
@@ -96,11 +99,18 @@
     padding: 10px;
   }
   .toprow{
-    background-color: rgb(111, 167, 231);
     margin: 0px;
     /* height: 25%; */
-    width: fit-content;
+    /* width: fit-content; */
     padding: 5px;
+    /* justify-content: center; */
+  }
+  .category{
+    background-color: rgb(111, 167, 231);
+    padding: 0px;
+    margin: 0px;
+    /* text-align: center; */
+    font-size: 1.5em;
   }
   .middlerow{
     /* background-color: seagreen; */
@@ -147,16 +157,16 @@
     /* height: 25%; */
     /* box-sizing: border-box; */
     /* padding: 0px auto; */
-    width: fit-content;
+    /* width: fit-content; */
+    /* background-color: red; */
+    width: 100%;
+    align-items: center;
+    display: flex;
   }
   .btnrow button{
-    /* height: auto; */
+    /* width: fit-content; */
   }
-  .greyBackground{
-    background-color: rgb(226, 223, 223);
-    height: 100vh;
-    width: 100%;
-  }
+ 
 
   
   footer {
@@ -169,8 +179,29 @@
 }
 
 
-@media screen and (max-width:414px){
+@media screen and (max-width:767px){
   
+  #welcomeDiv p{
+    font-size: 1.5em;
+    color: white;
+  }
+  .dropdown-menu{
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .dropdown-item{
+    background-color: white;
+    margin: 0px;
+  }
+
+  .toprow{
+    margin: 0px;
+    /* height: 25%; */
+    /* width: fit-content; */
+    padding: 5px;
+    justify-content: center;
+  }
     .middlerow .col-md-3{
       /* background-color: red; */
       margin: 0px;
@@ -190,6 +221,19 @@
     }
     .middlerow .col-md-9 p{
       text-align: center;   
+    }
+ 
+
+    .btnrow{
+      margin: 0px;
+      /* height: 25%; */
+      /* box-sizing: border-box; */
+      /* padding: 0px auto; */
+      /* width: fit-content; */
+      /* background-color: red; */
+      width: 100%;
+      align-items: center;
+      justify-content: center;
     }
       
 }
