@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    src: local('./Karla/Karla-Bold.ttf'), local('Karla-Bold.woff2'),
+         format('woff2'), format('woff'); 
+  }
+  @font-face {
+    font-family: 'Manrope Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Manrope Regular'), url('../Manrope/manrope-regular.woff') format('woff');
+    }
+  
+  body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      /* background-color: black; */
+      font-family: 'Manrope Regular' Karla, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      padding: 75px 0px 0px 0px;
+      /* background-color: #ccc; */
+      background-color: #04172A;
+
+      position: relative;
+  }
+  .navbar{
+    justify-content: space-between;
+    margin: 0px;
+    background-color: #04172A;
+    border: none;
+  }
+ .navbar-brand{
+    margin: 0px;
+    padding: 0px;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .navbar-brand img{
+    width: 100px;
+    margin: 0px;
+  }
+  #navbarNav{
+    justify-content: flex-end;
+  }
+  .navbar-nav{
+    justify-content: stretch;
+    align-items: center;
+  }
+  .nav-item{
+    width: 10em;
+    /* background-color: white; */
+    margin: 0px 10px;
+    font-weight: bold;
+  }
+  .nav-link{
+    color: white;
+  }
+  #welcomeDiv{
+    background-color: #225085;
+    height: 12.5em;
+    margin: 0px;
+    width: 100%;
+    padding: 20px 0px 0px 20px;
+    /* position: relative; */
+    border: none;
+  }
+  #welcomeDiv p{
+    font-size: 2em;
+    color: white;
+  }
+
+  #mainDiv{
+    position: absolute;
+    /* background-color: gray; */
+    top: 13em;
+    /* height:100%; */
+    width: 85%;
+    /* align-self: center; */
+    padding: 0px;
+    margin: 0px;
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  .outer{
+    /* background-color: white; */
+    height: 100%;
+    padding: 5px;
+    /* border: 2px solid red; */
+    /* height: 100%; */
+    /* margin: 0px; */
+  }
+  .inner{
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+
+    /* padding: 5px; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+  }
+  .toprow{
+    background-color: rgb(111, 167, 231);
+    margin: 0px;
+    /* height: 25%; */
+    width: fit-content;
+    padding: 5px;
+  }
+  .middlerow{
+    /* background-color: seagreen; */
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid yellow; */
+    /* display: flex; */
+    /* height: 50%; */
+  }
+  .middlerow .col-md-3{
+    /* background-color: red; */
+    margin: 0px;
+    /* padding:  0px auto; */
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px;
+  }
+  .studentPortalImg{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .middlerow .col-md-9{
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .middlerow .col-md-9 p{
+    padding: 0px;
+    margin: 0px;
+    font-size:1em;
+    line-height: 1.25em;
+    text-align: left;
+    font-family: 'Manrope Regular';
+  
+  }
+  .btnrow{
+    margin: 0px;
+    /* height: 25%; */
+    /* box-sizing: border-box; */
+    /* padding: 0px auto; */
+    width: fit-content;
+  }
+  .btnrow button{
+    /* height: auto; */
+  }
+  .greyBackground{
+    background-color: rgb(226, 223, 223);
+    height: 100vh;
+    width: 100%;
+  }
+
+  
+  footer {
+    /* position: fixed; */
+    background-color: greenyellow;
+    /* height: 100px; */
+    bottom: 0;
+    width: 100%;
+    /* margin-top: 50px; */
+}
+ 
+
