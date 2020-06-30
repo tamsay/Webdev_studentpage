@@ -72,7 +72,7 @@
     /* background-color: gray; */
     top: 13.5em;
     /* height:100%; */
-    width: 85%;
+    width: 90%;
     /* align-self: center; */
     padding: 0px;
     margin: 0px;
@@ -106,11 +106,13 @@
     /* justify-content: center; */
   }
   .category{
-    padding: 5px;
+    border-radius: 2.5px;
+    padding: 2.5px 10px;
     margin: 0px;
+    text-transform: uppercase;
     /* text-align: center; */
-    font-size: 1.25em;
-    font-weight: bold;
+    font-size: 0.875em;
+    /* font-weight: bold; */
     color: white;
   }
   .middlerow{
@@ -147,7 +149,7 @@
   .middlerow .col-md-9 p{
     padding: 0px;
     margin: 0px;
-    font-size:1em;
+    font-size:0.875em;
     line-height: 1.25em;
     text-align: left;
     font-family: 'Manrope Regular';
@@ -167,7 +169,7 @@
   }
   .btnrow button{
     width: fit-content;
-    padding: 0px 4px;
+    padding: 0px 5px;
     margin: 0px;
   }
  
@@ -199,32 +201,47 @@
     margin: 0px;
   }
 
+  .inner{
+    padding: 15px;
+  }
   .toprow{
     margin: 0px;
     /* height: 25%; */
-    /* width: fit-content; */
+    width: fit-content;
     padding: 5px;
     justify-content: center;
+  }
+  .middlerow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
   }
     .middlerow .col-md-3{
       /* background-color: red; */
       margin: 0px;
       /* padding:  0px auto; */
-      display: flex;
+      /* display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: center; */
       padding: 0px;
+      width: 25%;
     }
     .studentPortalImg{
-      width: 50%;
+      width: 100%;
     }
   
     .middlerow .col-md-9{
       align-items: center;
-      justify-content: center;
+      width: 75%;
+      /* justify-content: center; */
+      /* background-color: red; */
     }
     .middlerow .col-md-9 p{
-      text-align: center;   
+      text-align: left; 
+      font-size: 1.25em;  
     }
  
 
@@ -237,7 +254,7 @@
       /* background-color: red; */
       width: 100%;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
     }
       
 }
