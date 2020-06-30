@@ -102,15 +102,16 @@
     margin: 0px;
     /* height: 25%; */
     /* width: fit-content; */
-    padding: 5px;
+    padding: 0px;
     /* justify-content: center; */
   }
   .category{
-    background-color: rgb(111, 167, 231);
-    padding: 0px;
+    padding: 5px;
     margin: 0px;
     /* text-align: center; */
-    font-size: 1.5em;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: white;
   }
   .middlerow{
     /* background-color: seagreen; */
@@ -162,9 +163,12 @@
     width: 100%;
     align-items: center;
     display: flex;
+    padding: 0px;
   }
   .btnrow button{
-    /* width: fit-content; */
+    width: fit-content;
+    padding: 0px 4px;
+    margin: 0px;
   }
  
 
