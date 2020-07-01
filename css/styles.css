@@ -10,11 +10,8 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
-      /* background-color: black; */
       font-family: 'Manrope Regular' Karla, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       padding: 72.5px 0px 0px 0px;
-      /* background-color: #ccc; */
-      /* background-color: #04172A; */
       background-color: rgb(243, 239, 239);
       position: relative;
   }
@@ -46,7 +43,6 @@
   }
   .nav-item{
     width: 10em;
-    /* background-color: white; */
     margin: 0px 10px;
     font-weight: bold;
   }
@@ -59,7 +55,6 @@
     margin: 0px;
     width: 100%;
     padding: 20px 0px 0px 20px;
-    /* position: relative; */
     border: none;
   }
   #welcomeDiv p{
@@ -69,30 +64,19 @@
 
   #mainDiv{
     position: absolute;
-    /* background-color: gray; */
     top: 13.5em;
-    /* height:100%; */
     width: 90%;
-    /* align-self: center; */
     padding: 0px;
     margin: 0px;
-    /* display: flex;
-    flex-wrap: wrap; */
   }
   .outer{
-    /* background-color: white; */
     height: 100%;
     padding: 5px;
-    /* border: 2px solid red; */
-    /* height: 100%; */
-    /* margin: 0px; */
   }
   .inner{
     background-color: white;
     height: 100%;
     border-radius: 10px;
-
-    /* padding: 5px; */
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -100,39 +84,28 @@
   }
   .toprow{
     margin: 0px;
-    /* height: 25%; */
-    /* width: fit-content; */
     padding: 0px;
-    /* justify-content: center; */
   }
   .category{
     border-radius: 2.5px;
     padding: 2.5px 10px;
     margin: 0px;
     text-transform: uppercase;
-    /* text-align: center; */
     font-size: 0.875em;
-    /* font-weight: bold; */
     color: white;
   }
   .middlerow{
-    /* background-color: seagreen; */
     margin: 0px;
     padding: 0px;
-    /* border: 2px solid yellow; */
-    /* display: flex; */
-    /* height: 50%; */
   }
   .middlerow .col-md-3{
-    /* background-color: red; */
     margin: 0px;
-    /* padding:  0px auto; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
   }
-  .studentPortalImg{
+  .portalThumbnail{
     width: 100%;
     box-sizing: border-box;
     padding: 0px;
@@ -157,11 +130,6 @@
   }
   .btnrow{
     margin: 0px;
-    /* height: 25%; */
-    /* box-sizing: border-box; */
-    /* padding: 0px auto; */
-    /* width: fit-content; */
-    /* background-color: red; */
     width: 100%;
     align-items: center;
     display: flex;
@@ -172,18 +140,7 @@
     padding: 0px 5px;
     margin: 0px;
   }
- 
-
-  
-  footer {
-    /* position: fixed; */
-    background-color: greenyellow;
-    /* height: 100px; */
-    bottom: 0;
-    width: 100%;
-    /* margin-top: 50px; */
-}
-
+   
 
 @media screen and (max-width:767px){
   
@@ -206,7 +163,6 @@
   }
   .toprow{
     margin: 0px;
-    /* height: 25%; */
     width: fit-content;
     padding: 5px;
     justify-content: center;
@@ -220,24 +176,17 @@
     width: 100%;
   }
     .middlerow .col-md-3{
-      /* background-color: red; */
       margin: 0px;
-      /* padding:  0px auto; */
-      /* display: flex;
-      justify-content: center;
-      align-items: center; */
       padding: 0px;
       width: 25%;
     }
-    .studentPortalImg{
+    .portalThumbnail{
       width: 100%;
     }
   
     .middlerow .col-md-9{
       align-items: center;
       width: 75%;
-      /* justify-content: center; */
-      /* background-color: red; */
     }
     .middlerow .col-md-9 p{
       text-align: left; 
@@ -247,11 +196,6 @@
 
     .btnrow{
       margin: 0px;
-      /* height: 25%; */
-      /* box-sizing: border-box; */
-      /* padding: 0px auto; */
-      /* width: fit-content; */
-      /* background-color: red; */
       width: 100%;
       align-items: center;
       justify-content: flex-start;
