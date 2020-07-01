@@ -67,7 +67,7 @@
     top: 13.5em;
     width: 90%;
     padding: 0px;
-    margin: 0px;
+    margin: 0px 0px 90px 0px;
   }
   .outer{
     height: 100%;
@@ -139,6 +139,13 @@
     width: fit-content;
     padding: 0px 5px;
     margin: 0px;
+  }
+  footer{
+    color: white;
+    background-color: #04172A;
+  }
+  .fa{
+    /* font-size: 0em; */
   }
    
 
