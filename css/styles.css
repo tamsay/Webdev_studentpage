@@ -13,6 +13,7 @@
       font-family: 'Manrope Regular' Karla, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       padding: 72.5px 0px 0px 0px;
       background-color: rgb(243, 239, 239);
+      /* background-color: red; */
       position: relative;
   }
   .navbar{
@@ -51,7 +52,7 @@
   }
   #welcomeDiv{
     background-color: #225085;
-    height: 12.5em;
+    height: 10em;
     margin: 0px;
     width: 100%;
     padding: 20px 0px 0px 20px;
@@ -61,13 +62,21 @@
     font-size: 2em;
     color: white;
   }
+  #colorDiv{
+    background-color: #225085;
+    /* background-color: red; */
+    height: 3.5em;
+    width: 100%;
+    position: absolute;
+    top: 14.5em;
+  }
 
   #mainDiv{
-    position: absolute;
-    top: 13.5em;
+    /* position: absolute; */
+    /* top: 13.5em; */
     width: 90%;
     padding: 0px;
-    margin: 0px 0px 90px 0px;
+    margin: 0px 0px 30px 0px;
   }
   .outer{
     height: 100%;
@@ -143,6 +152,7 @@
   footer{
     color: white;
     background-color: #04172A;
+    width: 100%;
   }
   .fa{
     /* font-size: 0em; */
