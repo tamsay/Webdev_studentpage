@@ -183,6 +183,11 @@
     font-size: 0.825em;
     background-color: #0075ff;
   }
+  .btnrow button:hover{
+    background-color: white;
+    color: #0075FF;
+    font-weight: 500;
+  }
   footer{
     color: white;
     background-color: #04172A;
