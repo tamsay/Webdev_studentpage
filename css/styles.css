@@ -135,7 +135,40 @@
     line-height: 1.25em;
     text-align: left;
     font-family: 'Manrope Regular';
+  }
+  .homework{
+    background: linear-gradient(106.59deg, #FF9A24 0%, #DB7600 100%);
+  }
   
+  .test{
+    background: linear-gradient(106.02deg, #52CA5E 0%, #00A510 100%);
+  }
+  
+  .result{
+    /* width: 71px; */
+    background: linear-gradient(111.41deg, #6283F8 0%, #294BC2 100%);
+  }
+  
+  .practice{
+    background: linear-gradient(109.11deg, #FF2775 0%, #D01F5F 100%);
+  }
+  
+  .announcements{
+    /* width: 128px; */
+    background: linear-gradient(101.52deg, #5FE7F0 0%, #1296CE 100%);
+  }
+  
+  .attendance{
+    background: linear-gradient(105.15deg, #9D5DEE 0%, #6315B1 100%);
+  }
+  
+  .time-table{
+    background: linear-gradient(107.43deg, #FC69FF 0%, #CE25D1 100%);
+  }
+  
+  .gallery{
+    /* width: 71px; */
+    background: linear-gradient(111.41deg, #CDE056 0%, #9AAE20 100%);
   }
   .btnrow{
     margin: 0px;
